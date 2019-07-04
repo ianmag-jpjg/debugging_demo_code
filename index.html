@@ -31,8 +31,8 @@
     }
 
     const updateLabel = () => {
-      let number1 = getNumber(1);
-      var number2 = getNumber(2);
+      let number1 = parseFloat(getNumber(1));
+      var number2 = parseFloat(getNumber(2));
       var sum = number1 + number2;
       label.textContent = number1 + ' + ' + number2 + ' = ' + sum;
     }
